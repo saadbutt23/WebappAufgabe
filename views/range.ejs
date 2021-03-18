@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        label {
+            display: block;
+            font: 1rem 'Fira Sans', sans-serif;
+        }
+        
+        input,
+        label {
+            margin: .4rem 0;
+        }
+        input:invalid{
+            border: solid red 3px;
+        }
+        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Frühestes Datum : <%=lowerLimit%></h1>
+    <h1>Spätestes Datum : <%=upperLimit%></h1>
+    
+
+<div>
+  <form id="myForm" method="POST" action="/dateSubmission/<%=days%>">
+    
+    <label for="fname">Geben Sie bitte das Datum ein (JJMMTT)</label><br>
+    <input type="text" name="Date" id="fname" name="fname" value="Date"><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
