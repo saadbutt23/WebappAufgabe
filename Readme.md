@@ -18,4 +18,4 @@ git clone https://github.com/saadbutt23/WebappAufgabe.git
 
 2) In the terminal enter "npm start" to run the application
 
-3) Go to the browser and enter the routes (first two ones from above) to test its functionality
+3) Go to the browser and enter the routes (first two ones from above) to test their functionality
