@@ -5,9 +5,8 @@ const bodyParser = require("body-parser");
 const urlencodedParser = bodyParser.urlencoded({extended:false});
 
 router.get("/homepage",controller.homepage); 
-router.get("/homepage/:Datum",controller.datum);
 router.post("/UnixTime", urlencodedParser,controller.register)
-router.get("/page/:Zahl", controller.Zahl)
+router.get("/Tage/:Zahl", controller.Zahl)
 router.post("/dateSubmission/:Zahl", urlencodedParser, controller.Zahl, controller.submit)
 
 

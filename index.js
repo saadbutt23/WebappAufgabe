@@ -30,5 +30,5 @@ app.set("view engine", "ejs");
 app.use("/", myRoutes); 
 
 app.listen(port, ()=>{
-    console.log("Hell with the server");
+    console.log("CONNECTED!");
 });
