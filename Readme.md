@@ -1,4 +1,4 @@
-### http://localhost:3330/Tage/<number of days before and after the present date>
+### http://localhost:3330/Tage/number of days before and after the present date
 For Example: http://localhost:3330/Tage/30 will give the user the option to enter a date that is one month before and after the current date
 
 ### http://locahost:3330/homepage
